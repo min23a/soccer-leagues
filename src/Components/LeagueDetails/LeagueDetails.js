@@ -35,7 +35,7 @@ const LeagueDetails = () => {
             </div>
             <Container fluid className="background text-white">
                 <div className="detail_box bg-primary">
-                    <div className="w-100 m-auto">
+                    <div className="w-100 mx-5">
                         <h3>{strLeague}</h3>
                         <p><FontAwesomeIcon icon={faMapMarkerAlt} /> Founded :{intFormedYear}</p>
                         <p><FontAwesomeIcon icon={faFlag} /> Country : {strCountry}</p>

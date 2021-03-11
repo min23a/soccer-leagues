@@ -1,6 +1,7 @@
 import { createContext, useEffect, useState } from 'react';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import './App.css';
+import Error from './Components/Error/Error';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import LeagueDetails from './Components/LeagueDetails/LeagueDetails';
@@ -28,6 +29,9 @@ function App() {
         </Route>
         <Route exact path="/">
           <Home/>
+        </Route>
+        <Route path="*">
+          <Error/>
         </Route>
       </Switch>
     </Router>
