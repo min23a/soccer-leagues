@@ -1,0 +1,6 @@
+.explore_btn{
+    background: linear-gradient(45deg,blue,purple)!important;
+}
+.explore_btn:hover{
+    background: linear-gradient(45deg, purple, blue) !important;
+}

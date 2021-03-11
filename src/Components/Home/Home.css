@@ -1,0 +1,11 @@
+.custom{
+    height: 250px;
+    font-weight: 900;
+    font-size: 38px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://fansmuseum.org/wp-content/uploads/2018/09/Football-Stadium-background.jpg');
+}
+.box_container{
+    background: linear-gradient(90deg,rgb(150, 130, 238),rgb(171, 231, 247)) ;
+}

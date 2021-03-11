@@ -1,0 +1,54 @@
+.bg-image{
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://fansmuseum.org/wp-content/uploads/2018/09/Football-Stadium-background.jpg');
+}
+.bg-image img{
+    height: 100px;
+}
+.background{
+    padding: 20px 40px !important;
+    background: linear-gradient(180deg, rgb(140, 170, 132) , rgb(140, 0, 255));
+}
+.detail_box{
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+}
+.team_img{
+    height: 250px;
+    border-radius: 5px;
+}
+.custom-design{
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50%;
+    padding: 5px 11px!important;
+    margin: 10px;
+    box-shadow: 0px 10px 15px black;
+    position: relative;
+    bottom: 0px;
+}
+.custom-design:hover{
+    bottom: 10px;
+    transition: bottom 1s ease-out;
+}
+.bg-blue{
+    background-color: rgb(40, 40, 153);
+    padding: 5px 10px;
+}
+.text-decoration{
+    text-decoration: none;
+}
+@media only screen and (max-width: 500px){
+    .background {
+        padding: 10px 10px !important;
+        background-color: rgb(16, 16, 80);
+    }
+    .detail_box{
+        flex-direction: column;
+    }
+}
